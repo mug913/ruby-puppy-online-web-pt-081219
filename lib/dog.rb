@@ -19,7 +19,6 @@ def self.all
 end 
 
 def self.print_all 
-  names = []
   @@all.each do |puppy|
     puts puppy.name 
    end
